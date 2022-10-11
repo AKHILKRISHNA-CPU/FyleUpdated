@@ -1,0 +1,8 @@
+.repo small{
+border: 1px solid black;
+background-color:#0066ff;
+color: white;
+font-weight: 600;
+justify-content: center;
+padding: 0px 8px;
+}

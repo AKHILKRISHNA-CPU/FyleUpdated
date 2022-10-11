@@ -1,0 +1,76 @@
+.info {
+display: flex;
+flex-direction: row;
+color:black;
+font-size: 15px;
+float: left;
+width: 100%;
+margin-bottom: 100px;
+}
+.info .picture {
+width: 30%;
+margin-right: 200px;
+}
+.info .picture img {
+width: 200px;
+border-radius: 100px;
+margin-left: 20px;
+}
+.data {
+font-size: 15px;
+font-weight: 200;
+}
+.data p {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.searchother {
+background: #0066ff;
+color: #f5f5f5;
+font-weight: 600;
+border-radius:15px;
+padding: 10px;
+margin: 10px 0;
+float: right;
+margin-bottom: 50px;
+
+}
+.user-repos {
+width: 100%;
+height: 100px;
+margin-right: 10px;
+margin-left: 10px;
+}
+.repo {
+border: 1px solid #444;
+float: left;
+height: 100%;
+width:40%;
+margin-left: 60px;
+display: wrap;
+padding-left: 10px;
+margin-bottom: 50px;
+
+}
+.repo a {
+color:#0066ff;
+}
+/* Pagination Starts */
+.pagination button {
+padding: 7px;
+margin-right:150px;
+
+
+}
+.pagination button {
+background-color: rgb(22, 80, 205);
+color: #fff;
+font-weight: 600;
+margin: 0 5px;
+outline: none;
+border: none;
+border-radius:20px;
+padding: 10px 15px;
+}
+/* paginartion ends */
